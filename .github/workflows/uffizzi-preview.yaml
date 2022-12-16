@@ -80,7 +80,7 @@ jobs:
       # and this reusable workflow will delete the preview deployment.
       compose-file-cache-key: ${{ needs.cache-compose-file.outputs.compose-file-cache-key }}
       compose-file-cache-path: docker-compose.rendered.yml
-      server: https://ab8d-190-21-42-83.sa.ngrok.io/
+      server: https://49e1-2800-150-111-1db4-d018-688b-dadb-e27d.sa.ngrok.io/
       pr-number: ${{ needs.cache-compose-file.outputs.pr-number }}
       git-ref: ${{ needs.cache-compose-file.outputs.git-ref }}
     permissions:
